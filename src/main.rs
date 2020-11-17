@@ -1,3 +1,6 @@
+mod traffic_light;
+
 fn main() {
-    println!("Hello, world!");
+    println!("red traffic light  time: {}", traffic_light::LightColor::light_show_time(traffic_light::LightColor::Red));
 }
+

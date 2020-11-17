@@ -26,5 +26,7 @@ client/5wei/meal
 torch
 .tag*
 yarn.lock
+target/
+Cargo.lock
 
 #**/environment/development.js
